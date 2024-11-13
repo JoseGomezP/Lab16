@@ -12,7 +12,7 @@ body{
     background-color: #a6b4c1;
    }
 
-   .Formulario input, .Formulario button{
+.Formulario input, .Formulario button{
     width: 95%;
     padding: 15px;
     margin: 15px;
