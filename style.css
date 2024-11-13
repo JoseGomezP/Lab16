@@ -2,10 +2,10 @@
     width: 320px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #69a7e2;
+    border: 1px solid #00fd3f;
     border-radius: 12px;
-    box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
-    background-color: #a6b4c1;
+    box-shadow: 2px 2px 20px #4305f0;
+    background-color: #56ccdb;
 }
 .Formulario input, .Formulario button{
     width: 95%;
@@ -18,10 +18,10 @@
     border-radius: 10%;
     display: block;
     margin: 10px auto;
-    border: 2px solid #ccc;
+    border: 2px solid #76007a;
 }
 header{
-    background-color: #333;
+    background-color: #0400e7;
     padding: 1px 0;
 }
 nav ul{
@@ -41,7 +41,7 @@ nav ul li a{
     display: inline-block;
 }
 nav ul li a:hover{
-    background-color: #8a5858;
+    background-color: #d40e0ed0;
 }
 
 
