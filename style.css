@@ -1,12 +1,10 @@
 body{
-    background-color: blueviolet;
+    background-color: rgb(255, 255, 255);
 }
-div {
-    background-color: beige;
-    font-family: 'Times New Roman', Times, serif;
-}
+
 .Formulario{
     width: 320px;
+    height: 400px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #69a7e2;
@@ -14,6 +12,64 @@ div {
     box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
     background-color: #a6b4c1;
    }
+.Formulario a:hover {
+    color: rgb(30, 255, 0);
+}
+   nav ul {
+    display: flex;  
+    flex-direction: row;
+    list-style-type: none;  
+    padding: 0;
+    margin: 0;
+    justify-content: center; 
+    background-color: transparent;  
+}
+
+nav ul li {
+    margin: 0 20px; 
+    position: relative; 
+}
+
+nav ul li a {
+    color: black;  
+    text-decoration: none;  
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff6347;  
+}
 
 
+nav ul li ol {
+    display: none;  
+    position: absolute;
+    top: 100%;  
+    left: 0;
+    background-color: #333;
+    padding: 10px;
+    margin: 0;
+    list-style-type: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px blue;
+}
+
+nav ul li:hover > ol {
+    display: block; 
+}
+
+nav ul li ol li {
+    margin: 10px 0; 
+}
+
+nav ul li ol li a {
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+    display: block;
+}
+
+nav ul li ol li a:hover {
+    background-color: #46251c;  
+}
    

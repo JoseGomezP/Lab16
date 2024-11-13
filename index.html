@@ -8,11 +8,20 @@
 </head>
 <body>
     <header>
-
+        <nav>
+            <ol>
+                <li>
+                    <a href="#Formulario">Formulario</a>
+                </li>
+                <li>
+                    <a href="#Pie">Pie de pagina</a>
+                </li>
+            </ol>
+        </nav>
     </header>
     <div>
         <h1>Registro usario</h1>
-        <form class="Formulario" onsubmit="return validarFormulario()">
+        <form class="Formulario" id="Formulario" onsubmit="return validarFormulario()">
             <label>Nombre: </label>
             <input type="text" id="nombre" name="nombre"></input>
             <label>Correo: </label>
@@ -25,7 +34,9 @@
             <button type="submit">Registrar</button>
     </form>
     </div>
-    
+    <footer id="Pie">
+        <p>Buenas noches</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
