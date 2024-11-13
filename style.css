@@ -5,3 +5,13 @@ div {
     background-color: beige;
     font-family: 'Times New Roman', Times, serif;
 }
+.Formulario{
+    width: 320px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #69a7e2;
+    border-radius: 12px;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
+    background-color: #a6b4c1;
+   }
+   
