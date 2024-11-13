@@ -33,7 +33,7 @@ header{
 .Formulario a:hover {
     color: rgb(30, 255, 0);
 }
-   nav ul {
+nav ul {
     display: flex;  
     flex-direction: row;
     list-style-type: none;  
@@ -59,35 +59,7 @@ nav ul li a:hover {
 }
 
 
-nav ul li ol {
-    display: none;  
-    position: absolute;
-    top: 100%;  
-    left: 0;
-    background-color: #333;
-    padding: 10px;
-    margin: 0;
-    list-style-type: none;
-    border-radius: 5px;
-    box-shadow: 0 4px 6px blue;
-}
 
-nav ul li:hover > ol {
-    display: block; 
-}
 
-nav ul li ol li {
-    margin: 10px 0; 
-}
 
-nav ul li ol li a {
-    color: white;
-    font-size: 16px;
-    padding: 5px 10px;
-    display: block;
-}
 
-nav ul li ol li a:hover {
-    background-color: #46251c;  
-}
-   
