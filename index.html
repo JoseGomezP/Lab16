@@ -23,11 +23,11 @@
         <h1>Registro usario</h1>
         <form class="Formulario" id="Formulario" onsubmit="return validarFormulario()">
             <label>Nombre: </label>
-            <input type="text" id="nombre" name="nombre"></input>
+            <input type="text" id="nombre" name="nombre" required></input>
             <label>Correo: </label>
-            <input type="email" id="email" name="email"></input>
+            <input type="email" id="email" name="email" required></input>
             <label>Contraseña: </label>
-            <input type="password" id="password" name="password"></input>
+            <input type="password" id="password" name="password" required></input>
             <label>Imagen: </label>
             <input type="file" id="imagen" name="imagen" accept="imagen" onchange="mostrarImagen(event)"></input>
             <img id="ver-imagen" class="ver-imagen">
