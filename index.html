@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab16</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <div>
+        <h1>Registro usario</h1>
+        <form class="Formulario" onsubmit="return validarFormulario()">
+            <label>Nombre: </label>
+            <input type="text" id="nombre" name="nombre"></input>
+            <label>Correo: </label>
+            <input type="email" id="email" name="email"></input>
+            <label>Contraseña: </label>
+            <input type="password" id="password" name="password"></input>
+            <label>Imagen: </label>
+            <input type="file" id="imagen" name="imagen" accept="imagen" onchange="mostrarImagen(event)"></input>
+            <img id="ver-imagen" class="ver-imagen">
+            <button type="submit">Registrar</button>
+    </form>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
